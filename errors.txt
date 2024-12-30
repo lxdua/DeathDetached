@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/chapter/demo.rpy", line 12: multiple at clauses are prohibited.
+    show aki1 at left at nod
+                        ^
+
+File "game/chapter/demo.rpy", line 13: multiple at clauses are prohibited.
+    show mir1 at right at shake
+                         ^
+
+Ren'Py Version: Ren'Py 8.3.3.24111502
+Tue Dec 31 00:28:34 2024
