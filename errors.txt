@@ -2,13 +2,89 @@
 errors listed below, and try again.
 
 
-File "game/chapter/demo.rpy", line 12: multiple at clauses are prohibited.
-    show aki1 at left at nod
-                        ^
+File "game/chapter/demo.rpy", line 13: Line with id demo_45b70382 appears twice. The other line is game/chapter/Chapter3.rpyc:12
 
-File "game/chapter/demo.rpy", line 13: multiple at clauses are prohibited.
-    show mir1 at right at shake
-                         ^
+File "game/chapter/demo.rpy", line 18: Line with id demo_7dcede35 appears twice. The other line is game/chapter/Chapter3.rpyc:17
+
+File "game/chapter/demo.rpy", line 21: Line with id demo_0adfbb35 appears twice. The other line is game/chapter/Chapter3.rpyc:20
+
+File "game/chapter/demo.rpy", line 24: Line with id demo_a942aa3e appears twice. The other line is game/chapter/Chapter3.rpyc:23
+
+File "game/chapter/demo.rpy", line 27: Line with id demo_f049bd4d appears twice. The other line is game/chapter/Chapter3.rpyc:26
+
+File "game/chapter/demo.rpy", line 29: Line with id demo_98c32dbe appears twice. The other line is game/chapter/Chapter3.rpyc:28
+
+File "game/chapter/demo.rpy", line 31: Line with id demo_b57f57c2 appears twice. The other line is game/chapter/Chapter3.rpyc:30
+
+File "game/chapter/demo.rpy", line 34: Line with id demo_5fffdceb appears twice. The other line is game/chapter/Chapter3.rpyc:33
+
+File "game/chapter/demo.rpy", line 36: Line with id demo_1db42d8f appears twice. The other line is game/chapter/Chapter3.rpyc:35
+
+File "game/chapter/demo.rpy", line 37: Line with id demo_f480071e appears twice. The other line is game/chapter/Chapter3.rpyc:36
+
+File "game/chapter/demo.rpy", line 38: Line with id demo_0d27dee2 appears twice. The other line is game/chapter/Chapter3.rpyc:37
+
+File "game/chapter/demo.rpy", line 39: Line with id demo_e5d44327 appears twice. The other line is game/chapter/Chapter3.rpyc:38
+
+File "game/chapter/demo.rpy", line 40: Line with id demo_0a0d22f0 appears twice. The other line is game/chapter/Chapter3.rpyc:39
+
+File "game/chapter/demo.rpy", line 52: Line with id demo_b61d1365 appears twice. The other line is game/chapter/Chapter3.rpyc:51
+
+File "game/chapter/demo.rpy", line 53: Line with id demo_de59ec83 appears twice. The other line is game/chapter/Chapter3.rpyc:52
+
+File "game/chapter/demo.rpy", line 54: Line with id demo_18650aa1 appears twice. The other line is game/chapter/Chapter3.rpyc:53
+
+File "game/chapter/demo.rpy", line 55: Line with id demo_4b6d8e44 appears twice. The other line is game/chapter/Chapter3.rpyc:54
+
+File "game/chapter/demo.rpy", line 59: Line with id demo_0b252ab8 appears twice. The other line is game/chapter/Chapter3.rpyc:58
+
+File "game/chapter/demo.rpy", line 60: Line with id demo_f25238f6 appears twice. The other line is game/chapter/Chapter3.rpyc:59
+
+File "game/chapter/demo.rpy", line 63: Line with id demo_a9a14b4a appears twice. The other line is game/chapter/Chapter3.rpyc:62
+
+File "game/chapter/demo.rpy", line 64: Line with id demo_9bbab385 appears twice. The other line is game/chapter/Chapter3.rpyc:63
+
+File "game/chapter/demo.rpy", line 65: Line with id demo_c8ed373b appears twice. The other line is game/chapter/Chapter3.rpyc:64
+
+File "game/chapter/demo.rpy", line 66: Line with id demo_b6a4f863 appears twice. The other line is game/chapter/Chapter3.rpyc:65
+
+File "game/chapter/demo.rpy", line 68: Line with id demo_80e5ea8c appears twice. The other line is game/chapter/Chapter3.rpyc:67
+
+File "game/chapter/demo.rpy", line 70: Line with id demo_f2e01edb appears twice. The other line is game/chapter/Chapter3.rpyc:69
+
+File "game/chapter/demo.rpy", line 72: Line with id demo_ccee24be appears twice. The other line is game/chapter/Chapter3.rpyc:71
+
+File "game/chapter/demo.rpy", line 74: Line with id demo_b81b949e appears twice. The other line is game/chapter/Chapter3.rpyc:73
+
+File "game/chapter/demo.rpy", line 76: Line with id demo_ea9b771f appears twice. The other line is game/chapter/Chapter3.rpyc:75
+
+File "game/chapter/demo.rpy", line 78: Line with id demo_92065ca3 appears twice. The other line is game/chapter/Chapter3.rpyc:77
+
+File "game/chapter/demo.rpy", line 80: Line with id demo_1fe1c7d7 appears twice. The other line is game/chapter/Chapter3.rpyc:79
+
+File "game/chapter/demo.rpy", line 86: Line with id demo_c525a121 appears twice. The other line is game/chapter/Chapter3.rpyc:85
+
+File "game/chapter/demo.rpy", line 95: Line with id demo_26c79d08 appears twice. The other line is game/chapter/Chapter3.rpyc:94
+
+File "game/chapter/demo.rpy", line 98: Line with id demo_a2c1a875 appears twice. The other line is game/chapter/Chapter3.rpyc:97
+
+File "game/chapter/demo.rpy", line 101: Line with id demo_5a366366 appears twice. The other line is game/chapter/Chapter3.rpyc:100
+
+File "game/chapter/demo.rpy", line 104: Line with id demo_aac6b45d appears twice. The other line is game/chapter/Chapter3.rpyc:103
+
+File "game/chapter/demo.rpy", line 110: Line with id demo_0a580200 appears twice. The other line is game/chapter/Chapter3.rpyc:109
+
+File "game/chapter/demo.rpy", line 112: Line with id demo_ca654c14 appears twice. The other line is game/chapter/Chapter3.rpyc:111
+
+File "game/chapter/demo.rpy", line 118: Line with id demo_77c92628 appears twice. The other line is game/chapter/Chapter3.rpyc:117
+
+File "game/chapter/demo.rpy", line 120: Line with id demo_215c4a11 appears twice. The other line is game/chapter/Chapter3.rpyc:119
+
+File "game/chapter/demo.rpy", line 122: Line with id demo_7413a062 appears twice. The other line is game/chapter/Chapter3.rpyc:121
+
+File "game/chapter/demo.rpy", line 128: Line with id demo_060d328b appears twice. The other line is game/chapter/Chapter3.rpyc:127
+
+File "game/chapter/demo.rpy", line 130: Line with id demo_3b36e2db appears twice. The other line is game/chapter/Chapter3.rpyc:129
 
 Ren'Py Version: Ren'Py 8.3.3.24111502
-Tue Dec 31 00:28:34 2024
+Wed Jan  1 00:26:21 2025

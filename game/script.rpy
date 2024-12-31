@@ -23,7 +23,7 @@ image luo1 = "9007"
 
 label start:
 
-    call demo from _call_demo
+    call demo
     #call chapter0
     #call chapter1
     #call chapter2
