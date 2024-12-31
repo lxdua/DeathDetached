@@ -12,15 +12,16 @@ label demo:
     show mir1 at right, jump_once
     mir "真是疲惫...但一口气玩了好多！把小时候没玩的内容全部补上了。"
     with dissolve
-    
+
+    show mir1 at right, turn_dark
     show aki1 at left, nod_once_slow
     with dissolve
     aki "让你慢一点了....少玩几个项目下次来再玩也行的。呼....累死了。"
     
-    show mir1 at right, shake_once
+    show mir1 at right, shake_once, turn_norcol
     mir "下次再来就不知道是什么时候了，一次玩完才够尽兴嘛！快看看还有哪些剩下的内容可以玩。"
     
-    show aki1 at left, nod_once
+    show aki1 at left, nod_once, turn_norcol
     aki "还剩一个...那个大摩天轮。"
     
     show mir1 at right, nod_once

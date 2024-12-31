@@ -1,52 +1,78 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-Compiling ATL code at game/transform.rpy:17
-  File "game/script.rpy", line 26, in script call
+Executing ATL code at game/rpy/transform/colortf.rpy:3
+  File "game/rpy/script.rpy", line 7, in script call
     call demo
-  File "game/chapter/demo.rpy", line 12, in script
-    show aki1 at left, nod_once
-  File "game/transform.rpy", line 17, in <module>
-    stop
-NameError: name 'stop' is not defined
+  File "game/rpy/chapter/demo.rpy", line 24, in script
+    aki "还剩一个...那个大摩天轮。"
+TypeError: __init__() takes from 1 to 2 positional arguments but 3 were given
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 26, in script call
+  File "game/rpy/script.rpy", line 7, in script call
     call demo
-  File "game/chapter/demo.rpy", line 12, in script
-    show aki1 at left, nod_once
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 1111, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 1074, in show_imspec
-    renpy.config.show(name,
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\exports\displayexports.py", line 503, in show
-    sls.add(layer, img, key, zorder, behind, at_list=at_list, name=name, atl=atl, default_transform=default_transform, transient=transient)
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\scenelists.py", line 477, in add
-    thing.visit_all(lambda d : None)
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\displayable.py", line 424, in visit_all
-    for d in self.visit():
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\atl.py", line 816, in visit
-    block = self.compile()
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\atl.py", line 723, in compile
-    block = self.atl.compile(self.context)
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\atl.py", line 925, in compile
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\atl.py", line 925, in <listcomp>
-    statements = [ i.compile(ctx) for i in self.statements ]
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\atl.py", line 1232, in compile
-    child = ctx.eval(expr)
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\atl.py", line 387, in eval
-    return renpy.python.py_eval(expr, locals=self.context)
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\python.py", line 1209, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "D:\RenPy\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/transform.rpy", line 17, in <module>
-    stop
-NameError: name 'stop' is not defined
+  File "game/rpy/chapter/demo.rpy", line 24, in script
+    aki "还剩一个...那个大摩天轮。"
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 2573, in execute
+    Say.execute(self)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\exports\sayexports.py", line 132, in say
+    who(what, *args, **kwargs)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\character.py", line 1455, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\character.py", line 1106, in do_display
+    display_say(who,
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\character.py", line 803, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\core.py", line 2215, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\core.py", line 2879, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\core.py", line 1381, in draw_screen
+    surftree = renpy.display.render.render_screen(
+  File "render.pyx", line 486, in renpy.display.render.render_screen
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\transform.py", line 1056, in render
+    return RenderTransform(self).render(width, height, st, at)
+  File "accelerator.pyx", line 994, in renpy.display.accelerator.RenderTransform.render
+  File "accelerator.pyx", line 427, in renpy.display.accelerator.RenderTransform.render_child
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\transform.py", line 1056, in render
+    return RenderTransform(self).render(width, height, st, at)
+  File "accelerator.pyx", line 994, in renpy.display.accelerator.RenderTransform.render
+  File "accelerator.pyx", line 427, in renpy.display.accelerator.RenderTransform.render_child
+  File "render.pyx", line 260, in renpy.display.render.render
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\transform.py", line 1054, in render
+    self.update_state()
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\display\transform.py", line 1235, in update_state
+    fr = self.execute(self, fst, fat)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\atl.py", line 798, in execute
+    action, arg, pause = block.execute(trans, timebase, self.atl_state, events)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\atl.py", line 1043, in execute
+    action, arg, pause = stmt.execute(trans, target - start, child_state, events)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\atl.py", line 1660, in execute
+    value = interpolate(complete, old, new, PROPERTIES[k])
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\atl.py", line 254, in interpolate
+    rv = b(a_origin, t)
+TypeError: __init__() takes from 1 to 2 positional arguments but 3 were given
 
 Windows-10-10.0.22621 AMD64
 Ren'Py 8.3.3.24111502
 DeathDetached 1.0
-Tue Dec 31 01:07:32 2024
+Wed Jan  1 03:31:59 2025
