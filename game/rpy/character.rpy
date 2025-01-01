@@ -20,10 +20,10 @@ init python:
             )
 
 define aki = Character("Aki", callback=active, cb_name="Aki", color="#cecde5")
-image aki1 = get_role_img("Aki", "images/role/9002.png")
+image aki1 = get_role_img("Aki", "images/role/Aki(instead).png")
 
 define mir = Character("Mir", callback=active, cb_name="Mir", color="#ffe76f")
-image mir1 = get_role_img("Mir", "images/role/9015.png")
+image mir1 = get_role_img("Mir", "images/role/Mir(instead).png")
 
 define angel = Character("Angel", callback=active, cb_name="Angel", color="#ffffff")
 image angel1 = "9004"

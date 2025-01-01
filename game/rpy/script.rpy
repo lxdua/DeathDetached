@@ -4,7 +4,7 @@
 
 label start:
 
-    call demo
+    call Chapter3
     #call chapter0
     #call chapter1
     #call chapter2
