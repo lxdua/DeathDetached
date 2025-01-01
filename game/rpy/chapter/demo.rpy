@@ -13,25 +13,24 @@ label demo:
     mir "真是疲惫...但一口气玩了好多！把小时候没玩的内容全部补上了。"
     with dissolve
 
-    show mir1 at right, turn_dark
     show aki1 at left, nod_once_slow
     with dissolve
     aki "让你慢一点了....少玩几个项目下次来再玩也行的。呼....累死了。"
     
-    show mir1 at right, shake_once, turn_norcol
+    show mir1 at shake_once, turn_norcol
     mir "下次再来就不知道是什么时候了，一次玩完才够尽兴嘛！快看看还有哪些剩下的内容可以玩。"
     
-    show aki1 at left, nod_once, turn_norcol
+    show aki1 at nod_once, turn_norcol
     aki "还剩一个...那个大摩天轮。"
     
-    show mir1 at right, nod_once
+    show mir1 at nod_once
     mir "不是很想去又有点想去..."
-    show mir1 at right, jump_once
+    show mir1 at jump_once
     mir "好像只有它要额外收费诶？！"
 
     aki "这是什么说辞，不想去的话我们可以吃饭去了。下班，好耶！"
 
-    show mir1 at right, jump_once
+    show mir1 at jump_once
     mir "不行！你得陪我去，走吧走吧，钱我来出，算我请的了。"
 
     aki "能不能请晚饭而不是请摩天轮，算坐摩天轮的精神损失费。"
