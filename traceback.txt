@@ -2,27 +2,35 @@
 
 While running game code:
   File "game/rpy/script.rpy", line 7, in script call
-    call Chapter11
-  File "game/rpy/chapter/Chapter11.rpy", line 82, in script
-    mir_amazing  "...?"
-Exception: Sayer 'mir_amazing' is not defined.
+    call Sample
+  File "game/rpy/sample.rpy", line 25, in script
+    show aki at middle
+  File "game/rpy/sample.rpy", line 25, in <module>
+    show aki at middle
+NameError: name 'middle' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
   File "game/rpy/script.rpy", line 7, in script call
-    call Chapter11
-  File "game/rpy/chapter/Chapter11.rpy", line 82, in script
-    mir_amazing  "...?"
-  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
-    Say.execute(self)
-  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'mir_amazing' is not defined.
+    call Sample
+  File "game/rpy/sample.rpy", line 25, in script
+    show aki at middle
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 1111, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 1070, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\ast.py", line 1070, in <listcomp>
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "D:\RenPy\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/rpy/sample.rpy", line 25, in <module>
+    show aki at middle
+NameError: name 'middle' is not defined
 
-Windows-10-10.0.19041 AMD64
-Ren'Py 8.3.4.24120703
+Windows-10-10.0.22621 AMD64
+Ren'Py 8.3.3.24111502
 DeathDetached 1.0
-Fri Jan  3 16:34:37 2025
+Fri Jan  3 17:33:32 2025

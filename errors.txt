@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-The label Chapter3 is defined twice, at File "game/rpy/chapter/Chapter11.rpy", line 5:
-label Chapter3:
-and File "game/rpy/chapter/Chapter3.rpy", line 5:
-label Chapter3:
+File "game/rpy/sample.rpy", line 26: queue requires a channel
+    queue:
+         ^
 
-
-Ren'Py Version: Ren'Py 8.3.4.24120703
-Fri Jan  3 14:57:27 2025
+Ren'Py Version: Ren'Py 8.3.3.24111502
+Fri Jan  3 18:07:16 2025
