@@ -1,0 +1,12 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+The label Chapter3 is defined twice, at File "game/rpy/chapter/Chapter11.rpy", line 5:
+label Chapter3:
+and File "game/rpy/chapter/Chapter3.rpy", line 5:
+label Chapter3:
+
+
+Ren'Py Version: Ren'Py 8.3.4.24120703
+Fri Jan  3 14:57:27 2025

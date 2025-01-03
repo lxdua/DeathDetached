@@ -1,107 +1,451 @@
-2025-01-01 15:20:51 UTC
-Windows-10-10.0.22621
-Ren'Py 8.3.2.24090902
+2025-01-03 08:27:52 UTC
+Windows-10-10.0.19041
+Ren'Py 8.3.4.24120703
 
-Early init took 0.04s
+Early init took 0.06s
+Loading error handling took 0.03s
+Loading script took 0.17s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\yaoxin.ding\\AppData\\Roaming/RenPy/backups\\DeathDetached':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.03s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 537.58'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(976, 549) drawable=(976, 549)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 49, in script
+    Mir"（中学生） 你们....太过分了"
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Mir' is not defined.
+
+While running game code:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 49, in script
+    Mir"（中学生） 你们....太过分了"
+Exception: Sayer 'Mir' is not defined.
+
+Full traceback:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 49, in script
+    Mir"（中学生） 你们....太过分了"
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Mir' is not defined.
+
+While running game code:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 49, in script
+    Mir"（中学生） 你们....太过分了"
+Exception: Sayer 'Mir' is not defined.
+Resetting cache.
+Early init took 78.04s
 Loading error handling took 0.02s
-Loading script took 0.05s
-Loading save slot metadata took 0.01s
+Loading script took 0.09s
+Loading save slot metadata took 0.02s
 Loading persistent took 0.00s
 Running init code took 0.03s
 Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.01s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
-Dump and make backups took 0.03s
+Dump and make backups took 0.05s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.02s
-DPI scale factor: 1.250000
+Initial gc took 0.05s
+DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Creating interface object took 0.18s
+Creating interface object took 0.33s
 Cleaning stores took 0.00s
-Init translation took 0.02s
+Init translation took 0.04s
 Build styles took 0.00s
 Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.03s
+Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.00s
 Running _start took 0.00s
 Interface start took 0.04s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 2560, 1440)
+primary display bounds: (0, 0, 1920, 1080)
 swap interval: 1 frames
 Windowed mode.
 Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 4070 Ti/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.36'
+Renderer: b'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 537.58'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(2169, 1220) drawable=(2169, 1220)
+Screen sizes: virtual=(1920, 1080) physical=(976, 549) drawable=(976, 549)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 49, in script
+    Mir"（中学生） 你们....太过分了"
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'Mir' is not defined.
+
+While running game code:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 49, in script
+    Mir"（中学生） 你们....太过分了"
+Exception: Sayer 'Mir' is not defined.
+Resetting cache.
+Early init took 86.58s
+Loading error handling took 0.03s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\yaoxin.ding\\AppData\\Roaming/RenPy/backups\\DeathDetached':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.31s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 537.58'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(976, 549) drawable=(976, 549)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1322, 698) drawable=(1322, 698)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1465, 764) drawable=(1465, 764)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1140, 557) drawable=(1140, 557)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(783, 352) drawable=(783, 352)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1209, 558) drawable=(1209, 558)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 82, in script
+    mir_amazing  "...?"
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'mir_amazing' is not defined.
+
+While running game code:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 82, in script
+    mir_amazing  "...?"
+Exception: Sayer 'mir_amazing' is not defined.
+Resetting cache.
+Early init took 307.52s
+Loading error handling took 0.02s
+Loading script took 0.11s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\yaoxin.ding\\AppData\\Roaming/RenPy/backups\\DeathDetached':
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.34s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 537.58'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(992, 558) drawable=(992, 558)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 82, in script
+    mir_amazing  "...?"
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'mir_amazing' is not defined.
+
+While running game code:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 82, in script
+    mir_amazing  "...?"
+Exception: Sayer 'mir_amazing' is not defined.
+Resetting cache.
+Early init took 357.52s
+Loading error handling took 0.02s
+Loading script took 0.09s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.32s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 537.58'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(992, 558) drawable=(992, 558)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 82, in script
+    mir_amazing  "...?"
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'mir_amazing' is not defined.
+
+While running game code:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 82, in script
+    mir_amazing  "...?"
+Exception: Sayer 'mir_amazing' is not defined.
+Resetting cache.
+Early init took 404.41s
+Loading error handling took 0.02s
+Loading script took 0.09s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.06s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.33s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 537.58'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(992, 558) drawable=(992, 558)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 82, in script
+    mir_amazing  "...?"
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 2579, in execute
+    Say.execute(self)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 581, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "E:\p\renpy\renpy-8.3.4-sdk\renpy\ast.py", line 470, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'mir_amazing' is not defined.
+
+While running game code:
+  File "game/rpy/script.rpy", line 7, in script call
+    call Chapter11
+  File "game/rpy/chapter/Chapter11.rpy", line 82, in script
+    mir_amazing  "...?"
+Exception: Sayer 'mir_amazing' is not defined.
+Resetting cache.
+Early init took 514.80s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\yaoxin.ding\\AppData\\Roaming/RenPy/backups\\DeathDetached':
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: Disabled thread optimizations.
+Creating interface object took 0.33s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'NVIDIA Corporation'"
+Renderer: b'NVIDIA GeForce GTX 1650/PCIe/SSE2'
+Version: b'4.6.0 NVIDIA 537.58'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(992, 558) drawable=(992, 558)
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.01s
+Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
