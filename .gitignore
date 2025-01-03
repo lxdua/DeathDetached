@@ -1,1 +1,5 @@
 .vscode/
+*.save
+error.txt
+log.txt
+traceback.txt
