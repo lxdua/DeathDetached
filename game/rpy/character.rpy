@@ -19,8 +19,15 @@ init python:
                 )
             )
 
+define sp = Character("sp", callback=active, cb_name="sp", color="#cecde5")
+image sp = get_role_img("sp", "images/role/2104_8.png")
+image sp sword = get_role_img("sp", "images/role/2104_9.png")
+
+
 define aki = Character("Aki", callback=active, cb_name="Aki", color="#cecde5")
 image aki = get_role_img("Aki", "images/role/Aki(instead).png")
+image aki 9004 = get_role_img("Aki", "images/role/9004.png")
+image aki 9005 = get_role_img("Aki", "images/role/9005.png")
 
 define mir = Character("Mir", callback=active, cb_name="Mir", color="#ffe76f")
 image mir = get_role_img("Mir", "images/role/Mir(instead).png")

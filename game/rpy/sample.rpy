@@ -14,6 +14,17 @@ label Sample:
     with dissolve
     hide mir
 
+    # 表情
+    show sp at left, nod_once_slow:
+        zoom(0.5)#缩放
+    with dissolve
+    sp "表情的话看一下character文件的命名"
+    show sp sword
+    with dissolve
+    sp "直接show就可以切了"
+    show sp -sword
+    with dissolve
+    sp "还能直接减号移除"
 
     # 讲话讲一半夹东西
     show aki at default, nod_once_slow
