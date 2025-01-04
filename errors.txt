@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/rpy/chapter/Chapter11.rpy", line 185: choice menuitem expects a non-empty block.
+    "想要继续活着":
+             ^
+
+Ren'Py Version: Ren'Py 8.3.2.24090902
+Sun Jan  5 03:59:45 2025

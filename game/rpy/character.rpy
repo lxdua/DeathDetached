@@ -31,6 +31,11 @@ image aki 9005 = get_role_img("Aki", "images/role/9005.png")
 
 define mir = Character("Mir", callback=active, cb_name="Mir", color="#ffe76f")
 image mir = get_role_img("Mir", "images/role/Mir(instead).png")
+image mir child = get_role_img("Mir", "images/role/Child.png")
+image mir left = get_role_img("Mir", "images/role/Mir(instead) (left).png")
+image mir amazing = get_role_img("Mir", "images/role/Mir(amazing) .png")
+image mir smile = get_role_img("Mir", "images/role/Mir(Smile).png")
+image mir sad = get_role_img("Mir", "images/role/Mir(Sad).png")
 
 define angel = Character("Angel", callback=active, cb_name="Angel", color="#ffffff")
 image angel = "9004"
@@ -44,10 +49,10 @@ image fringilla = "9006"
 define luo = Character("Luo", callback=active, cb_name="Luo", color="#003153")
 image luo = "9007"
 
-define mir_child = Character("Mir_child", callback=active, cb_name="Mir", color="#ffe76f")
-image mir_child = get_role_img("Mir_child", "images/role/Child.png")
+define aki_Death = Character("Death", callback=active, cb_name="Death", color="#ffe76f")
+image aki_Death = get_role_img("Death", "images/role/Aki(Death).png")
 
-define mir_mother = Character("Mir_mother", callback=active, cb_name="Mir", color="#ffe76f")
+define mir_mother = Character("Mir_mother", callback=active, cb_name="Mir_mother", color="#ffe76f")
 image mir_mother = get_role_img("Mir_mother", "images/role/9009.png")
 
 define shadow = Character("??", callback=active, cb_name="??", color="#ffe76f")
