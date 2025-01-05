@@ -2,9 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/rpy/chapter/Chapter11.rpy", line 185: choice menuitem expects a non-empty block.
-    "想要继续活着":
-             ^
+File "game/rpy/chapter/Chapter11.rpy", line 214: scene statement expects a non-empty block.
+    scene bg_11_8 with dissolve:
+                                ^
+
+File "game/rpy/chapter/Chapter11.rpy", line 226: scene statement expects a non-empty block.
+    scene bg_11_9 with dissolve:
+                                ^
 
 Ren'Py Version: Ren'Py 8.3.2.24090902
-Sun Jan  5 03:59:45 2025
+Sun Jan  5 16:59:58 2025
