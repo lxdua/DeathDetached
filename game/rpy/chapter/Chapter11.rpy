@@ -7,6 +7,7 @@ image bg_11_6 = "images/bg/Bg_Aquarium.png"
 image bg_11_7 = "images/bg/BG_Ferris_wheel.png"
 image bg_11_8 = "images/bg/Bg_Movie_Theater.png"
 image bg_11_9 = "images/bg/Bg_Watching_Death.png"
+image bg_11_10 = "images/bg/Bg_WatchingDeath_2.png"
 image bg_Final = "images/bg/All_Black.png"
 
 label Chapter11:
@@ -57,6 +58,7 @@ label Chapter11:
     shadow "噗....还敢还手，给我上！打到她动不了为止"
     mir"（中学生） 做得到的话尽管试试啊！"
     #（播放拳打音效）
+    hide shadow
     show mir at left
     show mir left
     with dissolve
@@ -103,9 +105,9 @@ label Chapter11:
 
     show mir amazing at left
     aki_Death "从头到尾都在嗤笑自己的过去。即使是现在的你，也很可怜呢，继续说下去吧。"
-    show mir left
     mir  "什么声音，这里是哪里？一片漆黑，什么也看不到"
-    mir  "等一下....我是怎么到这里的？\n     吃完了安眠药，逞强着去找Aki要了答案，然后看着Aki然后倒了下去。忘了她说了什么，只是很开心地闭上了双眼"
+    show mir left
+    mir  "等一下....我是怎么到这里的？\n吃完了安眠药，逞强着去找Aki要了答案，然后看着Aki然后倒了下去。忘了她说了什么，只是很开心地闭上了双眼"
     mir  "那我再醒过来的时候应该看到的是Aki？为什么全是回忆，回忆完便是一片黑暗，漫无边际的黑暗。"
     mir  "也就是说.... 我死掉了吗？"
     mir  "真是想不到，不是淹死，不是坠落，不是伤口感染溃烂，不是上吊，竟然是以这么荒唐的死法死掉。还以为现代医学的剂量下，28颗安眠药是死不掉的。"
@@ -122,7 +124,7 @@ label Chapter11:
 
     hide mir
 
-    show aki_Death
+    show aki_Death Knife
     with dissolve
 
     aki_Death "死神"
@@ -137,13 +139,21 @@ label Chapter11:
         fit "contain"
     with dissolve
 
+    show aki_Death at right
+    with dissolve
+    show mir left at left
+    with dissolve
+
     aki_Death "这里如何？你一直很想去水族馆，只是还没和想去的那个人一起去而已，算满足了你一半的心愿"
     mir  "心愿还有一半的嘛？不管怎么玩文字游戏，不能被如愿以偿完成的心愿，怎么都不算完成吧？ 迟来的，变相的，等价的，以这些方式完成的都不算完成。"
     aki_Death "竟然还和我讨价还价的吗，要知道你完全没有资格。也不是你有心愿就能在死掉的世界完成吧。人生在世本就十有八九不如意，更何况是死后呢？"
     mir  "我没有在和你讨价还价，只是让你不要用这种善意来可怜我，我只会觉得恶心。"
-    aki_Death"（叹气）还是熟悉的臭脾气。（停顿，改为默认表情）冷静下来，你真的不想呆在这里吗？这么美丽的地方只属于你，没有任何人打扰，有的只有眼前永不停歇的鱼。\n偶尔还能自己投入其中，与他们一起沉浸。"
+    show aki_Death Sign
+    aki_Death"（叹气）还是熟悉的臭脾气。"
+    extend "冷静下来，你真的不想呆在这里吗？这么美丽的地方只属于你，没有任何人打扰，有的只有眼前永不停歇的鱼。\n偶尔还能自己投入其中，与他们一起沉浸。"
     aki_Death"（叹气） 我还以为你会喜欢呢，真是可惜。"
     mir "我确实会喜欢这种场景，但这场景适合大家一起看吧。\n只有我在这里日复一日地面对这些鱼的话，会像沉入海底一样无助吧。"
+    show aki_Death -Sign
     aki_Death "但你不是最喜欢沉没了吗？一次又一次地坠入海中，河中，甚至是浴缸中。\n听起来你很抵触这种感觉，为什么不好好地活着呢"
     menu:
         "两害相权取其轻":
@@ -160,6 +170,10 @@ label Chapter11:
         fit "contain"
     with dissolve
 
+    show aki_Death at right
+    with dissolve
+    show mir left at left
+    with dissolve
     aki_Death "这里如何？摩天轮的浪漫是，永远以你为中心转动。\n而且这里的时间已经停止了，或者说是永远循环了，你可以看着心爱的Aki与自己待在一起，就不会再像水族馆那样孤独了。"
     mir "心爱...？孤独...？"
     aki_Death "是啊，只要待在回忆里幸福的场景，不断地在脑里将其循环，这样的话真的会变得幸福的哦？"
@@ -174,14 +188,19 @@ label Chapter11:
                 mir "这样的事不应该由其他人决定，我想留在什么样的记忆片段，过什么样的生活，停在什么样的时间，全部都不该由其他人决定"
                 mir "今天你会让我留在这里，但我并不会只停留在这一个瞬间吧，哪怕是停留，我也是停留在众多瞬间中，而不是只看着一个钟摆物一样转个不停。"
                 mir "何况，万一有一天你把这一瞬间收回去了呢，我会变得怎么样？\n再次支离破碎，呈现出痛苦不堪的样子供你取乐吗？"
+                show aki_death amazing
                 aki_Death "（惊讶） 到了这种时候，这种地方也在反抗，你还真是讨厌他人给予的一切啊。"
+                show aki_death -amazing
                 aki_Death "但你说的对，你也很清楚，不能再把自己交给别人了，对吧？顺带一提，你超雄的样子也很可爱，那可不是钟摆物....."
+                show mir amazing
                 mir "（惊讶） ...？"
 
                 
     aki_Death "好了！摩天轮马上就到最高点了，许个愿吧，不管是“世界毁灭”还是“忧郁协会顺利发展”都好哦"
+    show mir left
     mir  "真是无聊的说辞，像我曾经说过的话，忧郁协会也早就解散了，事到如今，许下什么愿望也毫无意义了，根本不会实现。"
-    aki_Death "许愿最重要的是，许下愿望的那一瞬间，那一瞬间的祈祷也好，哀怨也罢，是真实存在的，是真正抓住了那一瞬间的心里所想。实不实现也许，没那么重要。{nw}"
+    aki_Death "许愿最重要的是，许下愿望的那一瞬间，那一瞬间的祈祷也好，哀怨也罢，是真实存在的，是真正抓住了那一瞬间的心里所想。实不实现也许，没那么重要。{nw=2}"
+    show aki_Death Smile
     extend"随便许个愿吧"
     menu:
             "想要继续活着":
@@ -195,6 +214,8 @@ label Chapter11:
             " ":
                 aki_Death"（笑容）想什么呢，这里我说了算，你没有任何选择可以做。（切换表情）瞧你那副不满的样子，谁让你这么轻易就抛弃了生命，任人摆布呢？"
 
+    
+    show mir fire at left
     #（出现Q版MIr生气的表情）
     aki_Death"（流汗）对不起！我只是开个玩笑而已。让我们去下一站把流程走完好吗？走完你想怎么样怎么样，我也可以干完今天的活，下班休息去了。" 
     menu:
@@ -215,10 +236,14 @@ label Chapter11:
     scene bg_11_8 with dissolve:
         fit "contain"
     with dissolve
-
+    show aki_Death LowLight at right
+    with dissolve
+    show mir left at left
+    with dissolve
     extend  "（失去高光）我们的下一站是电影院"
-        
+    
     aki_Death"（失去高光） 这里就是尽头了，最后的场景，所有死后的人最后都会来到这里。你想要做什么，想要看什么，这里都会有，自己的人生，别人的人生，都能看得到。你甚至可以在这些人生的段落上做剪辑，去编纂你想要的人生。"
+    show mir amazing at left
     mir "（流汗）（内心独白） 气氛完全不一样了，好吓人...."
     mir "我想要什么样的人生都可以吗？你刚刚说的“剪辑”，是什么意思"
     aki_Death "（失去高光）就好像把东西切开再缝合一样，你可以缝缝补补出一个完全由你想象的世界，只要你能找到对应的素材，就能做出想要的修改。"
@@ -230,8 +255,7 @@ label Chapter11:
     scene bg_11_9 with dissolve:
         fit "contain"
     with dissolve
-    
-        
+    show mir left at left
     aki_Death "不好意思，我一到这里就会这样。我很讨厌这里，讨厌这个终点。很多人到了这个地方之后就开始拼凑，疯了般地想要挽回什么。"
     aki_Death "但如我刚才所说，这里只能修改自己的记忆——也就是在死后，通过欺骗自己的方式，为自己刚刚逝去的生命，画上句号。然后反复观看，直至我再也插不上任何一句话。即使他们知道，这只是一个骗局"
     show mir amazing at left
@@ -239,6 +263,7 @@ label Chapter11:
     aki_Death "是的，大家都热衷于欺骗着自己活下去。大多数都这样做着，直至自己死去，在死后的世界里重蹈覆辙，在这个世界也一样死去。\n真的很孤独呢，只要陪着他们到了这个地方，不管之前相处成了怎么样的关系，他们都会把我抛下。"
     aki_Death "死亡并不可怕，可怕的是死不掉。而我不仅死不掉，还要一次又一次目睹这些人的死亡。接受他们的死亡，引领他们，直至他们再一次死亡，就好像我从未出现过一样，这比让我自己死去还痛苦。"
     aki_Death "一是这样的工作，漫长地毫无尽头，二是没有什么比无用的努力更让人绝望的了，可以的话，我也不想当这个死神。但我并没有任何选择。\b能与你聊天很开心，可惜万物终有尽头，我已经麻木了，不想再面对这些，请你自便吧。"
+    show mir left
     mir "虽然我也很后悔，但其实没有什么好修改。与其花时间在排列组合过去的记忆上，不如多花点时间陪陪你吧，你也很辛苦了。"
     
     scene bg_11_10 with dissolve:

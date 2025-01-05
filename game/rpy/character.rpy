@@ -36,6 +36,7 @@ image mir left = get_role_img("Mir", "images/role/Mir(instead) (left).png")
 image mir amazing = get_role_img("Mir", "images/role/Mir(amazing) .png")
 image mir smile = get_role_img("Mir", "images/role/Mir(Smile).png")
 image mir sad = get_role_img("Mir", "images/role/Mir(Sad).png")
+image mir fire = get_role_img("Mir", "images/role/Mir(Fire).png")
 
 define angel = Character("Angel", callback=active, cb_name="Angel", color="#ffffff")
 image angel = "9004"
@@ -51,6 +52,11 @@ image luo = "9007"
 
 define aki_Death = Character("Death", callback=active, cb_name="Death", color="#ffe76f")
 image aki_Death = get_role_img("Death", "images/role/Aki(Death).png")
+image aki_Death Knife = get_role_img("Death", "images/role/Aki(Death)(Knife).png")
+image aki_Death LowLight = get_role_img("Death", "images/role/Aki(Death)(LowLight).png")
+image aki_Death Sign = get_role_img("Death", "images/role/Aki(Sigh).png")
+image aki_Death amazing = get_role_img("Death", "images/role/Aki(Death)(Amazing).png")
+image aki_Death Smile = get_role_img("Death", "images/role/Aki(Smile).png")
 
 define mir_mother = Character("Mir_mother", callback=active, cb_name="Mir_mother", color="#ffe76f")
 image mir_mother = get_role_img("Mir_mother", "images/role/9009.png")
