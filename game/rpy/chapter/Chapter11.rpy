@@ -16,30 +16,41 @@ label Chapter11:
     scene bg_11_1 with dissolve:
         fit "contain"
 
-    play music"bgm/Old_city.mp3"
+    play music"bgm/Old_City_Respite.mp3"
 
+
+    voice"voice/Demo11/Mother1.wav"
     mir_mother "真疼啊...下次还是用红药水吧，消毒不干净但好歹不那么疼..."
 
     show mir at right
     show mir child
     with dissolve
+    
+    voice"voice/Demo11/Child01.wav"
     mir  "妈妈你没事吧...是不是爸爸又欺负你了，我们逃吧？我不想再看到他欺负你了..."
 
+    voice"voice/Demo11/Mother2.wav"
     mir_mother" 逃能逃到哪里去啊....家里的钱都是你爸爸挣来的，也都在他手里。没有钱的话，逃到哪都是一样的...都活不下去"
 
+    voice"voice/Demo11/Child02.wav"
     mir "咱们去找外公外婆，去找警察叔叔，去找老师...老师说过打人是不对的，受欺负了要去找老师帮忙才对"
 
+    voice"voice/Demo11/Mother3.wav"
     mir_mother "傻孩子，找谁这件事都会传开来。而且你记得吗？咱们上次逃回外公外婆家，他拿着刀追到楼下，堵在门口一动不动...."
 
+    voice"voice/Demo11/Mother4.wav"
     mir_mother "咱们只能希望他那边生意尽快好起来吧...好起来后就不会打人了。\n他也辛苦.....每天都在跑业务，应酬。在外面受那么多委屈，回家难免有脾气，这就是女人的命啊..."
 
+    voice"voice/Demo11/Child03.wav"
     mir  "可是老师上课说过，无论如何，打人都是不对的！不管怎么样都不应该去伤害别人！"
 
     show mir -child
     with dissolve
 
+    voice"voice/Demo11/Mir1.wav"
     mir "真是可怜的母女，不知道是谁受了那么久的家暴，竟然一点反抗的想法都没有"
-
+    
+    voice"voice/Demo11/Mir2.wav"
     mir "无论如何都不去伤害他人吗。在这种人吃人的世界里只会第一个死掉吧，大啖食粮之刻已到。"
     
     # 回到两人同框场景
@@ -47,21 +58,31 @@ label Chapter11:
         fit "contain"
     show shadow at left
     with dissolve
+    
+    voice"voice/Demo11/801.wav"
     shadow "平常都很嚣张嘛，怎么不继续趾高气扬，高高在上了。"
+    voice"voice/Demo11/802.wav"
     shadow "学习好点怎么了，老是小人得志那样子，真是让人气愤。"
     #（播放泼水音）
+    voice"voice/Demo11/803.wav"
     shadow "怎么要睡着了，冲个澡清凉一下吧"
+    voice"voice/Demo11/804.wav"
     shadow "哈哈哈哈哈哈哈哈哈哈"
     mir"（中学生） 你们....太过分了"
+    voice"voice/Demo11/805.wav"
     shadow "抛开事实不谈，你不觉得被人欺负是自己平时太过分了吗？"
     #（播放拳打音效）
+    voice"voice/Demo11/806.wav"
     shadow "噗....还敢还手，给我上！打到她动不了为止"
+    
     mir"（中学生） 做得到的话尽管试试啊！"
     #（播放拳打音效）
     hide shadow
     show mir at left
     show mir left
     with dissolve
+
+    voice"voice/Demo11/Mir3.wav"
     mir"（叹气） 还是太幼稚了，这种程度的反击根本震慑不了她们。\n应该在她们心中种下恐惧的种子，比直接还击来得管用很多。"
     
     # 回到两人同框场景
@@ -83,6 +104,7 @@ label Chapter11:
     hide shadow
     show mir left at left
     with dissolve
+    voice"voice/Demo11/Mir4.wav"
     mir "真是可怜，那个时候还没意识到出生就决定了一切吧。还在以为努力就能改变未来，还在做无畏的挣扎。"
 
     # 回到两人同框场景
@@ -93,33 +115,50 @@ label Chapter11:
     show mir left at left
     with dissolve
     
+    voice"voice/Demo11/Angel1.wav"
     angel "又在想那些不好的事了吗？ 总是愁眉苦脸，总是活在过去，日子是不会好起来的\n和我待在一起的时候要打起精神来！珍惜每次相处的时间！不许乱想！"
+    
+    voice"voice/Demo11/Angel2.wav"
     angel "下次再见面的话就是冬天啦！虽然很久很久，但是一定会见面的。\n一定要再见面哦！"
     
 
     show mir amazing 
+    stop music
 
+    mir "...?"
+    
     scene bg_11_5 with dissolve:
         fit "contain"
     with dissolve
 
     show mir amazing at left
     aki_Death "从头到尾都在嗤笑自己的过去。即使是现在的你，也很可怜呢，继续说下去吧。"
+    
+    voice"voice/Demo11/Mir5.wav"
     mir  "什么声音，这里是哪里？一片漆黑，什么也看不到"
     show mir left
+    
+    voice"voice/Demo11/Mir6.wav"
     mir  "等一下....我是怎么到这里的？\n吃完了安眠药，逞强着去找Aki要了答案，然后看着Aki然后倒了下去。忘了她说了什么，只是很开心地闭上了双眼"
+    voice"voice/Demo11/Mir7.wav"
     mir  "那我再醒过来的时候应该看到的是Aki？为什么全是回忆，回忆完便是一片黑暗，漫无边际的黑暗。"
+    voice"voice/Demo11/Mir8.wav"
     mir  "也就是说.... 我死掉了吗？"
+    voice"voice/Demo11/Mir9.wav"
     mir  "真是想不到，不是淹死，不是坠落，不是伤口感染溃烂，不是上吊，竟然是以这么荒唐的死法死掉。还以为现代医学的剂量下，28颗安眠药是死不掉的。"
+    voice"voice/Demo11/Mir10.wav"
     mir  "不过也好吧....一切都结束了"
     
     show mir smile
 
+    voice"voice/Demo11/Mir11.wav"
     mir "终于结束了。"
 
     show mir sad
 
+    voice"voice/Demo11/Mir13.wav"
     mir "只是觉得有些遗憾，把Aki用完就跑掉了，也不知道她会怎么接受这个结局。和她相处的日子很开心，真希望这样的日子没有尽头，永永远远，没有尽头。"
+    voice"voice/Demo11/Mir14.wav"
     mir "自杀的人上不了天堂，只能下地狱。接下来我会面对什么样的画面呢？判官？阎罗？黑白无常？死神？"
 
     hide mir
@@ -128,10 +167,13 @@ label Chapter11:
     with dissolve
 
     aki_Death "死神"
+    voice"voice/Demo11/Mir15.wav"
     mir"（惊讶） Aki？你怎么在这里！我们这是在哪，为什么我只看得见你，看不见周围的一切..."
     aki_Death "死神是没有真实面貌的，我会以你想见到的样子出现。这是你能享受到的最后一点人性，但请不要把我代入对应的人。"
+    voice"voice/Demo11/Mir16.wav"
     mir"（失落） 好吧...死神，接下来我会面对什么呢，十八层地狱还是审判庭？人死后是怎么样的。"
     aki_Death  "什么都没有，死了就是死了，你只能自己一个人呆在这里，永永远远地待在这个地方。"
+    voice"voice/Demo11/Mir17.wav"
     mir "这个地方黑漆漆的，像是监牢一样。\n我还没有理解现在是什么状况....是只能这样了吗？"
     aki_Death  "不，只是这个世界，本就是一片虚无罢了。我们可以换个地方说话，在到达尽头之前，陪你多玩一会吧。"
 
@@ -139,6 +181,7 @@ label Chapter11:
         fit "contain"
     with dissolve
 
+    play music"bgm/水族馆白噪音.mp3"
     show aki_Death at right
     with dissolve
     show mir left at left
@@ -170,6 +213,7 @@ label Chapter11:
         fit "contain"
     with dissolve
 
+    play music"bgm/Daylight.mp3"
     show aki_Death at right
     with dissolve
     show mir left at left
@@ -188,9 +232,9 @@ label Chapter11:
                 mir "这样的事不应该由其他人决定，我想留在什么样的记忆片段，过什么样的生活，停在什么样的时间，全部都不该由其他人决定"
                 mir "今天你会让我留在这里，但我并不会只停留在这一个瞬间吧，哪怕是停留，我也是停留在众多瞬间中，而不是只看着一个钟摆物一样转个不停。"
                 mir "何况，万一有一天你把这一瞬间收回去了呢，我会变得怎么样？\n再次支离破碎，呈现出痛苦不堪的样子供你取乐吗？"
-                show aki_death amazing
+                show aki_Death amazing
                 aki_Death "（惊讶） 到了这种时候，这种地方也在反抗，你还真是讨厌他人给予的一切啊。"
-                show aki_death -amazing
+                show aki_Death -amazing
                 aki_Death "但你说的对，你也很清楚，不能再把自己交给别人了，对吧？顺带一提，你超雄的样子也很可爱，那可不是钟摆物....."
                 show mir amazing
                 mir "（惊讶） ...？"
@@ -236,6 +280,8 @@ label Chapter11:
     scene bg_11_8 with dissolve:
         fit "contain"
     with dissolve
+    
+    play music"bgm/电磁白噪音.mp3"
     show aki_Death LowLight at right
     with dissolve
     show mir left at left
