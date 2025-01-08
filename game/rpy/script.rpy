@@ -4,7 +4,7 @@
 
 label start:
 
-    #call Sample
+    call Sample
     call Chapter11 from _call_Chapter11
     #call chapter0
     #call chapter1
