@@ -39,6 +39,21 @@ label Sample:
     show aki at default, nod_once_slow
     extend "里面写个=2可以决定停2秒\n"
 
+    show aki at default, nod_once_slow
+    aki "进入21比9模式"
+    
+    $ turn_219()
+    #window hide
+    $ show_narration219("这是一个21:9画面的旁白示例")
+    show aki at default, nod_once_slow
+    $ show_narration219("你看看这个效果怎么样")
+    show aki at default, nod_once_slow
+    $ show_narration219("要打字机效果的话我后面补上")
+    show aki at default, nod_once_slow
+    #$ hide_narration219()
+    $ turn_169()
+    aki "退出21比9模式"
+
 
     aki "111111111111"
     aki "111111111111"
