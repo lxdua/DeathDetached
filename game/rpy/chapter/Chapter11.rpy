@@ -463,7 +463,7 @@ label Chapter11:
     aki_Death "一是这样的工作，漫长地毫无尽头，二是没有什么比无用的努力更让人绝望的了，可以的话，我也不想当这个死神。但我并没有任何选择。\b能与你聊天很开心，可惜万物终有尽头，我已经麻木了，不想再面对这些，请你自便吧。"
     show mir left
     
-    voice"voice/Demo11/Theater/Mir_Theater01.wav"
+    voice"voice/Demo11/Theater/Mir_Theater02.wav"
     mir "虽然我也很后悔，但其实没有什么好修改。与其花时间在排列组合过去的记忆上，不如多花点时间陪陪你吧，你也很辛苦了。"
     
     scene bg_11_10 with dissolve:

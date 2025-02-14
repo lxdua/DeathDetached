@@ -463,7 +463,7 @@ label Chapter11JP:
     aki_Death "第一にこの仕事が終わりなく続くこと、第二に無駄な努力ほど絶望的なものはない。できれば死神もやりたくない。でも選択肢はない。\n君と話せて楽しかった、全てに終わりがあるから。もう感覚麻痺してる、これ以上は無理。ご自由に"
     show mir left
     
-    voice"voice/Demo11/Theater/Mir_Theater01.wav"
+    voice"voice/Demo11/Theater/Mir_Theater02.wav"
     mir "後悔はしてるけど、修正する必要ない。過去の記憶を弄るより、君の相手をした方がいい。君もずっと辛かったでしょ"
     
     scene bg_11_10 with dissolve:

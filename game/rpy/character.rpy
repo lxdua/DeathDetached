@@ -50,7 +50,7 @@ image fringilla = "9006"
 define luo = Character("Luo", callback=active, cb_name="Luo", color="#003153")
 image luo = "9007"
 
-define aki_Death = Character("Death", callback=active, cb_name="Death", color="#ffe76f")
+define aki_Death = Character("Death", callback=active, cb_name="Death", color="#000000")
 image aki_Death = get_role_img("Death", "images/role/Aki(Death).png")
 image aki_Death Knife = get_role_img("Death", "images/role/Aki(Death)(Knife).png")
 image aki_Death LowLight = get_role_img("Death", "images/role/Aki(Death)(LowLight).png")
@@ -58,8 +58,8 @@ image aki_Death Sign = get_role_img("Death", "images/role/Aki(Sigh).png")
 image aki_Death amazing = get_role_img("Death", "images/role/Aki(Death)(Amazing).png")
 image aki_Death Smile = get_role_img("Death", "images/role/Aki(Smile).png")
 
-define mir_mother = Character("Mir_mother", callback=active, cb_name="Mir_mother", color="#ffe76f")
+define mir_mother = Character("Mir_mother", callback=active, cb_name="Mir_mother", color="#5afcbe")
 image mir_mother = get_role_img("Mir_mother", "images/role/9009.png")
 
-define shadow = Character("??", callback=active, cb_name="??", color="#ffe76f")
+define shadow = Character("??", callback=active, cb_name="??", color="#4adafe")
 image shadow = get_role_img("??", "images/role/Shadow.png")
